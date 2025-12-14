@@ -1,5 +1,5 @@
 import style from './demo.module.css'
-import Image from 'next/image'
+
 
 export default function Demo() {
     return (
@@ -12,7 +12,7 @@ export default function Demo() {
                <div className={`${style.card} `}>Right</div>
                <div className={`${style.card} `}>Night</div>
                <div className={`${style.card} `}>Follow</div>
-               <div className={`${style.card} `}>Lenss</div>
+               <div className={`${style.card} `}>Len</div>
             </div>
         </div>
     )
