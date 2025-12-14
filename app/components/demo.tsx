@@ -12,7 +12,7 @@ export default function Demo() {
                <div className={`${style.card} `}>Right</div>
                <div className={`${style.card} `}>Night</div>
                <div className={`${style.card} `}>Follow</div>
-               <div className={`${style.card} `}>Lens</div>
+               <div className={`${style.card} `}>Lensi</div>
             </div>
         </div>
     )
