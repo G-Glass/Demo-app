@@ -19,7 +19,7 @@ export default function Navbar() {
                 </div>
                 <div className={style.Abrirmenu}>
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                        {isMenuOpen ? (<i className="bi bi-x-lg text-xl"></i>):(<i className="bi bi-list text-xl"></i>)}
+                        {isMenuOpen ? (<i className="bi bi-x-lg text-2xl"></i>):(<i className="bi bi-list text-2xl"></i>)}
                     </button>
                 </div>
                 <Link href={"/login"} className=' flex items-center mr-1 flex-rows font-[Times] bg-[#2b2024]  text-white  rounded-[10]'>
