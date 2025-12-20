@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   description: "Create next Wapp",
 };
 
+
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -27,7 +30,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
