@@ -2,7 +2,7 @@ import style from './footer.module.css'
 
 export default function Footer() {
     return (
-        <div>
+        <div className={` bg-slate-950 text-slate-50 text-center `}>
             <h1 className={style.edemo}>e-demo</h1>
             <h1 className={style.foot}>App & website developer </h1>
             <div className='flex items-center flex-col'>
